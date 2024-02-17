@@ -2,7 +2,14 @@
 This repository contains the source code for the interpolating algorithm and deep learning models (LSTM, GRU, bi-LSTM) implemented for weather data prediction using land use data.
 
 If you are interested in using this code in your research, please cite our following paper:
-https://doi.org/10.6084/m9.figshare.19234530.v7
+```
+@article{2024microclimate,
+  title={Microclimate spatio-temporal prediction using deep learning and land use data},
+  author={xxx},
+  year={2024},
+  note={In Revision}
+}
+```
 
 
 ## Approach
