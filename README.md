@@ -10,7 +10,7 @@ If you are interested in using this code in your research, please cite our follo
   note={In Revision}
 }
 ```
-
+The LULC data in this study '1m_GridPoints_distTo_and_zones_3414.csv' can be found at:. If you want to use the data, please cite:
 
 ## Approach
 
