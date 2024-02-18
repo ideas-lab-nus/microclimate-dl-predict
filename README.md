@@ -50,10 +50,21 @@ If you are interested in using this code in your research, please cite our paper
 
 ## Approach
 
-This study 
+This study presents a novel approach for urban microclimate prediction, termed the Geo-LSTM-Kriging model. The model integrates spatial, temporal, and environmental factors to provide accurate microclimate predictions at a high spatial resolution of 1 meter × 1 meter and shorter time intervals of 10 minutes. The approach incorporates three key components: 
+**Geo-layer**: Processes and learns from land use/land cover (LULC) data; 
+**LSTM layer**: Extracts and learns information from historical data using Long Short-Term Memory networks; 
+**Kriging layer**: Extracts spatial distance information.
 
-performs occupancy prediction based on a minimum sensing strategy by using a comprehensive set of sensor data (i.e., indoor environmental and outdoor weather conditions, Wi-Fi connected devices, energy consumption data, HVAC operations, and time-related information) to identify the most crucial features through a proposed feature selection algorithm. Occupancy predictions were subsequently performed using different deep learning architectures, including Deep Neural Network (DNN), Long Short-Term Memory (LSTM), Bi-directional LSTM (Bi-LSTM), Gated Recurrent Unit (GRU), and Bi-directional GRU (Bi-GRU) in an office, library, and lecture room. Our findings highlighted that the proposed feature selection algorithm outperformed a popular feature selection algorithm to achieve a higher model performance with lower sensing requirements. Furthermore, empirical results showed that indoor $CO_2$ levels and Wi-Fi connected devices were crucial features for predicting occupancy across all space types. The best model performances were achieved using Bi-GRU for office, GRU for library, and Bi-GRU for lecture room.
+To comprehensively validate the performance of the proposed model, two levels of baseline models were designed and compared with experimental results: 
 
-<img src="./src/tem_campusplot.png">
+###Level 1 Baselines### 
+
+Comparison with classical types of machine learning models, including **LSTM** and **GRU** for temporal data processing, and **Ordinary Kriging** and **Regression Kriging** interpolation for spatial data.
+
+###Level 2 Baselines###
+
+Comparison with traditional microclimate data accessing methods, such as directly using data from neighboring weather stations, representative urban weather stations (e.g., **Changi Airport Weather station data**), and International Weather for Energy Calculations (**IWEC**) data.
+
+<img src="./src/tem_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="" height=""> illustrates a typical application scenario of our model, showcasing its capability to provide high-precision, high-resolution visualized predictions for microclimate changes influenced by building and environmental conditions within a small area. Although not depicting actual buildings or roads, the predictions capture the spatial outlines, particularly during peak periods like midday. This tool offers valuable insights for urban planners and decision-makers, aiding in considerations such as vegetation coverage or building modifications.
 
 
