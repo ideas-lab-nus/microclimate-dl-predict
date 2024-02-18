@@ -45,7 +45,8 @@ If you are interested in using this code in your research, please cite our paper
     ├── figs                                      # Figures used in the paper
     │   └── ...                                   #
     ├── main.tex                                  # LaTeX source document
-    └── cas-refs.bib                              # Bibliographic information file 
+    └── cas-refs.bib                              # Bibliographic information file
+    └── ...
 ```
 
 *Due to size limitations for data files on GitHub, please download the LULC data '1m_GridPoints_distTo_and_zones_3414.csv' from the provided external link*: <https://drive.google.com/file/d/1-8naDeGk_qNFP4aJ6ghtJGrHYwGkwMQi/view?usp=drive_link>
