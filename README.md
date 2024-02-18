@@ -67,6 +67,6 @@ Comparison with traditional microclimate data accessing methods, such as directl
 
 <img src="./src/tem_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="400" height="800"> 
 
-The above figure illustrates a typical application scenario of our model, showcasing its capability to provide high-precision, high-resolution visualized predictions for microclimate changes influenced by building and environmental conditions within a small area. Although not depicting actual buildings or roads, the predictions capture the spatial outlines, particularly during peak periods like midday. This tool offers valuable insights for urban planners and decision-makers, aiding in considerations such as vegetation coverage or building modifications.
+The above figure illustrates a typical application scenario of our model, showcasing its capability to provide high-precision, high-resolution visualized predictions for microclimate changes influenced by building and environmental conditions within a small area. Although not depicting actual buildings or roads, the predictions capture the spatial outlines, particularly during peak periods like midday. This tool offers valuable insights for urban planners and decision-makers, aiding in considerations such as vegetation coverage or building modifications. If you would like to delve deeper into the algorithm and detailed analysis of model results, feel free to explore our research paper.
 
 
