@@ -1,0 +1,3 @@
+              - name: Automatic requirements.txt for Python Projects
+                uses: ryan-rozario/pipreqs-action@v3.0.0
+            
