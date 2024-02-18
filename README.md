@@ -57,11 +57,11 @@ This study presents a novel approach for urban microclimate prediction, termed t
 
 To comprehensively validate the performance of the proposed model, two levels of baseline models were designed and compared with experimental results: 
 
-### Level 1 Baselines
+#### Level 1 Baselines
 
 Comparison with classical types of machine learning models, including **LSTM** and **GRU** for temporal data processing, and **Ordinary Kriging** and **Regression Kriging** interpolation for spatial data.
 
-### Level 2 Baselines
+#### Level 2 Baselines
 
 Comparison with traditional microclimate data accessing methods, such as directly using data from **neighboring weather stations**, representative urban weather stations (e.g., **Changi Airport Weather station data**), and International Weather for Energy Calculations (**IWEC**) data.
 
