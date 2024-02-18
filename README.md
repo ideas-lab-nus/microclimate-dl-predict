@@ -23,32 +23,27 @@ If you are interested in using this code in your research, please cite our paper
 
 ```
 ./
-├── requirement.txt                               # File containing the list of Python packages the project uses
-├── R                                             # 
-│   ├── measurement.R                             # R script for measurement data preprocessing, including ACH calculation & thermal conductance cal & EPW weather file generation
-│   ├── uncertainty.R                             # R script for measurement uncertainty analysis
-│   ├── baseline_idfs.Rmd                         # R script for baseline EnergyPlus model development by incorporating different levels of information 
-│   ├── model_accuracy_validation.R               # R script for validating the predictive accuracy of Models 1 to 6 against measured data
-│   └── ECM_sim.R                                 # R script for ECM analysis using parametric simulations
-|   └── model_evaluation.R                        # R script for model predictive performance evaluation and result visualization
+├── python                                        # 
+│   ├── requirement.txt                           # File containing the list of Python packages the project uses
+│   ├── Model_train.ipynb                         # Python notebook for constructing and training the models used in study
+│   ├── Model_evaluation_and_plot.ipynb           # Python notebook for validating the predictive error of models and plot the validation results
+│   └── trainednw                                 # Folder to save trained network parameters
+│       └── ...                                   #
 ├── data                                          # 
-│   ├── csv                                       # Dataset summarizing papers reviewed
-│   │   ├── sf6.csv                               # SF6 concentration measurements
-│   │   ├── heat_flux.csv                         # Heat-flux sensor measurements
-│   │   ├── pi_data.csv                           # Energy Management System data and logged data set during the experiment period
-│   │   └── experiment_schedule.csv               # Experiment schedule
-│   └── idf                                       # 
-│       ├── epwfiles                              # EnergyPlus weather files
-│       │   └── ...                               # 
-│       ├── iddfiles                              # IDD files
-│       │   └── ...                               # 
-│       └── idffiles                              # Baseline IDFs
-│           └── ...                               #                               
+│   ├──GridPoints_TreesAndStreets_3414.csv        # LULC data of trees and streets
+│   ├──WSPoints_TreesAndStreets_3414.csv          # LULC data of weather stations
+│   ├──RH0719.csv                                 # RH data of weather stations in 2019/07
+│   ├──RH0819.csv                                 # RH data of weather stations in 2019/08
+│   ├──Tem0719.csv                                # Temperature data of weather stations in 2019/07
+│   ├──Tem0819.csv                                # Temperature data of weather stations in 2019/08
+│   ├──sr0719.csv                                 # Solar radiation data of weather stations in 2019/07
+│   └──ws0719.csv                                 # Wind speed data of weather stations in 2019/07 
+├── src                                           # sources used in README.md
 └── paper                                         # 
     ├── figures                                   # Figures used in the paper
     │   └── ...                                   #
-    ├── tex                                       # LaTeX source document
-    └── bib                                       # Bibliographic information file 
+    ├── main.tex                                  # LaTeX source document
+    └── cas-refs.bib                              # Bibliographic information file 
 ```
 
 *Due to size limitations for data files on GitHub, please download the LULC data '1m_GridPoints_distTo_and_zones_3414.csv' from the provided external link*: <https://drive.google.com/file/d/1-8naDeGk_qNFP4aJ6ghtJGrHYwGkwMQi/view?usp=drive_link>
