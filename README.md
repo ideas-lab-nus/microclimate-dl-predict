@@ -32,6 +32,8 @@ If you are interested in using this code in your research, please cite our paper
 ├── data                                          # 
 │   ├──GridPoints_TreesAndStreets_3414.csv        # LULC data of trees and streets
 │   ├──WSPoints_TreesAndStreets_3414.csv          # LULC data of weather stations
+│   ├──SGP_Singapore.486980_IWEC.epw              # Singapore IWEC data of year 2019
+│   ├──SGP_SINGAPORE-CHANGI-AP_486980S_19.epw     # Changi Airport weather data of year 2019
 │   ├──RH0719.csv                                 # RH data of weather stations in 2019/07
 │   ├──RH0819.csv                                 # RH data of weather stations in 2019/08
 │   ├──Tem0719.csv                                # Temperature data of weather stations in 2019/07
@@ -66,6 +68,7 @@ Comparison with classical types of machine learning models, including **LSTM** a
 Comparison with traditional microclimate data accessing methods, such as directly using data from neighboring weather stations, representative urban weather stations (e.g., **Changi Airport Weather station data**), and International Weather for Energy Calculations (**IWEC**) data.
 
 <img src="./src/tem_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="400" height="800"> 
+<img src="./src/RH_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="400" height="800"> 
 
 The above figure illustrates a typical application scenario of our model, showcasing its capability to provide high-precision, high-resolution visualized predictions for microclimate changes influenced by building and environmental conditions within a small area. Although not depicting actual buildings or roads, the predictions capture the spatial outlines, particularly during peak periods like midday. This tool offers valuable insights for urban planners and decision-makers, aiding in considerations such as vegetation coverage or building modifications.
 
