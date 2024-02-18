@@ -42,7 +42,7 @@ If you are interested in using this code in your research, please cite our paper
 │   └──ws0719.csv                                 # Wind speed data of weather stations in 2019/07 
 ├── src                                           # sources used in README.md
 └── paper                                         # 
-    ├── figs                                   # Figures used in the paper
+    ├── figs                                      # Figures used in the paper
     │   └── ...                                   #
     ├── main.tex                                  # LaTeX source document
     └── cas-refs.bib                              # Bibliographic information file 
