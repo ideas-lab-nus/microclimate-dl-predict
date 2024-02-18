@@ -63,7 +63,7 @@ Comparison with classical types of machine learning models, including **LSTM** a
 
 ### Level 2 Baselines
 
-Comparison with traditional microclimate data accessing methods, such as directly using data from neighboring weather stations, representative urban weather stations (e.g., **Changi Airport Weather station data**), and International Weather for Energy Calculations (**IWEC**) data.
+Comparison with traditional microclimate data accessing methods, such as directly using data from **neighboring weather stations**, representative urban weather stations (e.g., **Changi Airport Weather station data**), and International Weather for Energy Calculations (**IWEC**) data.
 
 <img src="./src/tem_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="400" height="800"> 
 
