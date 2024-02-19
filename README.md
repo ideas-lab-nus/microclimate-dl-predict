@@ -79,7 +79,7 @@ If you would like to delve deeper into the algorithm and detailed analysis of mo
 
 ## License
 
-See the [LICENSE](LICENSE) file
+This project is licensed under the [LICENSE](LICENSE).
 
 
 
