@@ -45,7 +45,8 @@ If you are interested in using this code in your research, please cite our paper
     ├── figs                                      # Figures used in the paper
     │   └── ...                                   #
     ├── main.tex                                  # LaTeX source document
-    └── cas-refs.bib                              # Bibliographic information file 
+    └── cas-refs.bib                              # Bibliographic information file
+    └── ...
 ```
 
 *Due to size limitations for data files on GitHub, please download the LULC data '1m_GridPoints_distTo_and_zones_3414.csv' from the provided external link*: <https://drive.google.com/file/d/1-8naDeGk_qNFP4aJ6ghtJGrHYwGkwMQi/view?usp=drive_link>
@@ -67,9 +68,18 @@ Comparison with classical types of machine learning models, including **LSTM** a
 
 Comparison with traditional microclimate data accessing methods, such as directly using data from **neighboring weather stations**, representative urban weather stations (e.g., **Changi Airport Weather station data**), and International Weather for Energy Calculations (**IWEC**) data.
 
-<img src="./src/tem_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="400" height="800"> 
-<img src="./src/RH_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="400" height="800"> 
+<div style="display: flex;">
+    <img src="./src/tem_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="350" height="700"> 
+    <img src="./src/RH_campusplot.png" alt="Prediction result samples of Geo-LSTM-Kriging model." width="350" height="700"> 
+</div>
 
-The above figure illustrates a typical application scenario of our model, showcasing its capability to provide high-precision, high-resolution visualized predictions for microclimate changes influenced by building and environmental conditions within a small area. Although not depicting actual buildings or roads, the predictions capture the spatial outlines, particularly during peak periods like midday. This tool offers valuable insights for urban planners and decision-makers, aiding in considerations such as vegetation coverage or building modifications. If you would like to delve deeper into the algorithm and detailed analysis of model results, feel free to explore our research paper.
+The above figure illustrates a typical application scenario of our model, showcasing its capability to provide high-precision, high-resolution visualized predictions for microclimate changes influenced by building and environmental conditions within a small area. Although not depicting actual buildings or roads, the predictions capture the spatial outlines, particularly during peak periods like midday. This tool offers valuable insights for urban planners and decision-makers, aiding in considerations such as vegetation coverage or building modifications. 
+
+If you would like to delve deeper into the algorithm and detailed analysis of model results, feel free to explore our research paper.
+
+## License
+
+This project is licensed under the [LICENSE](LICENSE).
+
 
 
