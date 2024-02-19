@@ -77,4 +77,9 @@ The above figure illustrates a typical application scenario of our model, showca
 
 If you would like to delve deeper into the algorithm and detailed analysis of model results, feel free to explore our research paper.
 
+## License
+
+See the [LICENSE](LICENSE) file
+
+
 
