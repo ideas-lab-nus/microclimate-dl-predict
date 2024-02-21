@@ -30,7 +30,7 @@ If you are interested in using this code in your research, please cite our paper
 │   └── trainednw                                 # Folder to save trained network parameters
 │       └── ...                                   #
 ├── data                                          #
-│   ├──1m_GridPoints_distTo_and_zones_3414        # large file that contains LULC data of NUS campus
+│   ├──1m_GridPoints_distTo_and_zones_3414.csv    # large file that contains LULC data of NUS campus
 │   ├──GridPoints_TreesAndStreets_3414.csv        # LULC data of trees and streets
 │   ├──WSPoints_TreesAndStreets_3414.csv          # LULC data of weather stations
 │   ├──SGP_Singapore.486980_IWEC.epw              # Singapore IWEC data of year 2019
