@@ -50,7 +50,7 @@ If you are interested in using this code in your research, please cite our paper
     └── ...
 ```
 
-*This repository contains a large data file named '1m_GridPoints_distTo_and_zones_3414.csv', located in the '/data' directory.*
+*This repository contains a large data file named `1m_GridPoints_distTo_and_zones_3414.csv`, located in the `/data` directory.*
 
 ## Approach
 
