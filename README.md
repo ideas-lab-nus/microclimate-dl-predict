@@ -5,7 +5,7 @@ The compendium includes all the data and code needed to reproduce the analysis. 
 
 > xxx, xxx, xxx, xxx and xxx, (2024).
 > *Microclimate spatio-temporal prediction using deep learning and land use data*.
-> *Building and Environment*. <https://doi.org/xxx/xxx>
+> *Building and Environment*. <https://doi.org/10.1016/j.buildenv.2024.111358>
 
 ## Citation
 
