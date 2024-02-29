@@ -3,7 +3,7 @@ This repository contains the research compendium of our latest work, "Microclima
 
 The compendium includes all the data and code needed to reproduce the analysis. More details can be found in our paper:
 
-> xxx, xxx, xxx, xxx and xxx, (2024).
+> Jintong Han, Adrian Chong, Joie Lim, Savitha Ramasamy, Nyuk Hien Wong, Filip Biljecki, (2024).
 > *Microclimate spatio-temporal prediction using deep learning and land use data*.
 > *Building and Environment*. <https://doi.org/10.1016/j.buildenv.2024.111358>
 
@@ -13,9 +13,10 @@ If you are interested in using this code in your research, please cite our paper
 ```
 @article{2024microclimate,
   title={Microclimate spatio-temporal prediction using deep learning and land use data},
-  author={xxx},
+  author = {Jintong Han and Adrian Chong and Joie Lim and Savitha Ramasamy and Nyuk Hien Wong and Filip Biljecki}
   year={2024},
-  note={In Revision}
+  doi = {https://doi.org/10.1016/j.buildenv.2024.111358},
+  url = {https://www.sciencedirect.com/science/article/pii/S0360132324002002},
 }
 ```
 
