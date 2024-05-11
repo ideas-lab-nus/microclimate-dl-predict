@@ -83,7 +83,7 @@ If you would like to delve deeper into the algorithm and detailed analysis of mo
 
 ## License
 
-This project is licensed under the [LICENSE](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 
 
