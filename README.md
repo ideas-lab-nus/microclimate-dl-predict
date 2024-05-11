@@ -15,7 +15,9 @@ If you are interested in using this code in your research, please cite our paper
   title = {Microclimate spatio-temporal prediction using deep learning and land use data},
   author = {Jintong Han and Adrian Chong and Joie Lim and Savitha Ramasamy and Nyuk Hien Wong and Filip Biljecki}
   year = {2024},
-  doi = {https://doi.org/10.1016/j.buildenv.2024.111358},
+  doi = {10.1016/j.buildenv.2024.111358},
+  volume = {253},
+  pages = {111358},
   url = {https://www.sciencedirect.com/science/article/pii/S0360132324002002},
 }
 ```
